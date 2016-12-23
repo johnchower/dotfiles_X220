@@ -1,0 +1,4 @@
+/usr/local/bin/xflux -l 40 -g -105
+xmodmap ~/.Xmodmap
+setxkbmap -option caps:ctrl_modifier
+sudo dhclient wlan0
