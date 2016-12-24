@@ -88,3 +88,7 @@ nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
 nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>
+
+" Set python3 executable
+let g:python3_host_prog = '/home/john/miniconda3/bin/python3'
+
