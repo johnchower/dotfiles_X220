@@ -155,3 +155,16 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# Auto-start and application workplace assignments
+
+exec i3-sensible-terminal
+exec firefox
+
+# application rules
+        # Terminal
+                assign [class="xterm"] 1
+		for_window [class="UXTerm"] fullscreen
+        # Firefox
+                assign [class="Firefox"] 2
+		for_window [class="Firefox"] fullscreen
