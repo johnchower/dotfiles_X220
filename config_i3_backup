@@ -158,7 +158,7 @@ bar {
 
 # Auto-start and application workplace assignments
 
-exec i3-sensible-terminal
+exec i3-sensible-terminal -e tmux
 exec firefox
 
 # application rules
