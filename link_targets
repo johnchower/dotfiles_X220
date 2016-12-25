@@ -1,21 +1,9 @@
-          ./proc/1258/task/1258/fd/14 -> /home/john/dotfiles_X220
-          ./proc/1258/fd/14 -> /home/john/dotfiles_X220
-          ./proc/1650/task/1650/cwd -> /home/john/dotfiles_X220
-          ./proc/1650/cwd -> /home/john/dotfiles_X220
-          ./proc/3164/task/3164/fd/27 -> /home/john/.local/share/nvim/swap/%home%john%dotfiles_X220%link_finder.sh.swp
-          ./proc/3164/task/3164/cwd -> /home/john/dotfiles_X220
-          ./proc/3164/task/3165/fd/27 -> /home/john/.local/share/nvim/swap/%home%john%dotfiles_X220%link_finder.sh.swp
-          ./proc/3164/task/3165/cwd -> /home/john/dotfiles_X220
-          ./proc/3164/fd/27 -> /home/john/.local/share/nvim/swap/%home%john%dotfiles_X220%link_finder.sh.swp
-          ./proc/3164/cwd -> /home/john/dotfiles_X220
-          ./proc/3262/task/3262/fd/1 -> /home/john/dotfiles_X220/link_targets
-          ./proc/3262/fd/1 -> /home/john/dotfiles_X220/link_targets
-          ./usr/local/bin/tmux-vim-select-pane -> /home/john/dotfiles_X220/tmux-vim-select-pane
-          ./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
-          ./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
-          ./home/john/.Xmodmap -> /home/john/dotfiles_X220/.Xmodmap
-          ./home/john/.bashrc -> /home/john/dotfiles_X220/.bashrc
-          ./home/john/.tmux.conf -> /home/john/dotfiles_X220/.tmux.conf
-          ./home/john/.xsessionrc -> /home/john/dotfiles_X220/.xsessionrc
-          ./home/john/.Xresources -> dotfiles_X220/.Xresources
-          ./home/john/.xprofile -> dotfiles_X220/.xprofile
+./usr/local/bin/tmux-vim-select-pane -> /home/john/dotfiles_X220/tmux-vim-select-pane
+./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
+./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
+./home/john/.Xmodmap -> /home/john/dotfiles_X220/.Xmodmap
+./home/john/.bashrc -> /home/john/dotfiles_X220/.bashrc
+./home/john/.tmux.conf -> /home/john/dotfiles_X220/.tmux.conf
+./home/john/.xsessionrc -> /home/john/dotfiles_X220/.xsessionrc
+./home/john/.Xresources -> dotfiles_X220/.Xresources
+./home/john/.xprofile -> dotfiles_X220/.xprofile
