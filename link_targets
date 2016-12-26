@@ -1,9 +1,10 @@
-./usr/local/bin/tmux-vim-select-pane -> /home/john/dotfiles_X220/tmux-vim-select-pane
-./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
-./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
-./home/john/.Xmodmap -> /home/john/dotfiles_X220/.Xmodmap
-./home/john/.bashrc -> /home/john/dotfiles_X220/.bashrc
-./home/john/.tmux.conf -> /home/john/dotfiles_X220/.tmux.conf
-./home/john/.xsessionrc -> /home/john/dotfiles_X220/.xsessionrc
-./home/john/.Xresources -> dotfiles_X220/.Xresources
-./home/john/.xprofile -> dotfiles_X220/.xprofile
+          ./usr/local/bin/tmux-vim-select-pane -> /home/john/dotfiles_X220/tmux-vim-select-pane
+          ./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
+          ./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
+          ./home/john/.Xmodmap -> /home/john/dotfiles_X220/.Xmodmap
+          ./home/john/.bashrc -> /home/john/dotfiles_X220/.bashrc
+          ./home/john/.tmux.conf -> /home/john/dotfiles_X220/.tmux.conf
+          ./home/john/.vimperatorrc -> dotfiles_X220/.vimperatorrc
+          ./home/john/.xsessionrc -> /home/john/dotfiles_X220/.xsessionrc
+          ./home/john/.Xresources -> dotfiles_X220/.Xresources
+          ./home/john/.xprofile -> dotfiles_X220/.xprofile
