@@ -94,4 +94,4 @@ nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>
 let g:python3_host_prog = '/home/john/miniconda3/bin/python3'
 
 " YouCompleteMe python binary path
-let g:ycm_python_binary_path = 'python3.5'
+let g:ycm_python_binary_path = 'python'
