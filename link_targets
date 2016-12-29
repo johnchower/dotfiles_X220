@@ -1,4 +1,5 @@
           ./usr/local/bin/tmux-vim-select-pane -> /home/john/dotfiles_X220/tmux-vim-select-pane
+          ./etc/lightdm/lightdm-gtk-greeter.conf -> /home/john/dotfiles_X220/lightdm-gtk-greeter.conf
           ./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
           ./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
           ./home/john/.Xmodmap -> /home/john/dotfiles_X220/.Xmodmap
