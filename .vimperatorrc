@@ -1,1 +1,4 @@
 set gui=notabs,nonavigation
+
+no gr :emenu View.Enter Reader View<CR>
+no gR :emenu View.Close Reader View<CR>
