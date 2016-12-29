@@ -1,6 +1,6 @@
 XTerm*selectToClipboard:true
 xterm*termName: xterm-256color
-xterm*font:     *-fixed-*-*-*-18-*
+xterm*font:     *-fixed-*-*-*-15-*
 
 #define S_base03        #002b36
 #define S_base02        #073642
