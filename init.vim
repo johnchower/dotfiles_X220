@@ -56,9 +56,12 @@ set background=dark
 colo solarized 
 
 " R tmux pane options
-let R_in_buffer = 0
-let R_applescript = 0
-let R_tmux_split = 1
+" let R_in_buffer = 0
+" let R_applescript = 0
+" let R_tmux_split = 1
+" let R_term="screen-256color"
+" let R_notmuxconf=1
+let R_vsplit=1
 
 " R indentation rules
 let r_indent_op_pattern = '%[^%]*%$'
