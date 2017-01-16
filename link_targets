@@ -11,3 +11,4 @@
           ./home/john/.xsessionrc -> /home/john/dotfiles_X220/.xsessionrc
           ./home/john/.Xresources -> dotfiles_X220/.Xresources
           ./home/john/.xprofile -> dotfiles_X220/.xprofile
+          ./home/john/.Rprofile -> dotfiles_X220/.Rprofile
