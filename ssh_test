@@ -1,1 +1,2 @@
 Will I be able to push without entering my GitHub password?
+Tried git remote set-url origin git@github.com:johnchower/dotfiles_X220.git
