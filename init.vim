@@ -23,6 +23,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'vimperator/vimperator.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chrisbra/csv.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
