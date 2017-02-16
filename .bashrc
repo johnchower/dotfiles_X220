@@ -117,3 +117,6 @@ export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
 alias turnoff='sudo shutdown -h now'
+
+# Set directory colors
+eval "$(dircolors ~/.dir_colors)"

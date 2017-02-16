@@ -13,3 +13,4 @@
           ./home/john/.Xresources -> dotfiles_X220/.Xresources
           ./home/john/.xprofile -> dotfiles_X220/.xprofile
           ./home/john/.Rprofile -> dotfiles_X220/.Rprofile
+          ./home/john/.dir_colors -> dotfiles_X220/.dir_colors
