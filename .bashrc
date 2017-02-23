@@ -112,7 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH="$HOME/miniconda3/bin:$HOME/.linuxbrew/bin:$PATH"
+export PATH="$HOME/scripts:$HOME/miniconda3/bin:$HOME/.linuxbrew/bin:$PATH"
 export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
