@@ -24,10 +24,15 @@ Plugin 'vimperator/vimperator.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chrisbra/csv.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'vim-latex/vim-latex'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" Search options
+set incsearch 
+set ignorecase
 
 " Key mappings
 
@@ -101,3 +106,17 @@ let g:python3_host_prog = '/home/john/miniconda3/bin/python3'
 
 " YouCompleteMe python binary path
 let g:ycm_python_binary_path = 'python'
+
+" Vim-Latex Stuff
+" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
+filetype plugin on
+
+" IMPORTANT: grep will sometimes skip displaying the file name if you
+" search in a singe file. This will confuse Latex-Suite. Set your grep
+" program to always generate a file-name.
+set grepprg=grep\ -nH\ $*
+
+" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+let g:tex_flavor='latex'
