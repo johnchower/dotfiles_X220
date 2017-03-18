@@ -1,6 +1,8 @@
-XTerm*selectToClipboard:true
+xterm*selectToClipboard:true
 xterm*termName: xterm-256color
-xterm*font:     *-fixed-*-*-*-15-*
+xterm*font:     *-fixed-*-*-*-8-*
+xterm*faceName: Bitstream Vera Serif Mono
+xterm*faceSize: 8
 
 #define S_base03        #002b36
 #define S_base02        #073642
