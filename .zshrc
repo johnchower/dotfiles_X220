@@ -14,6 +14,9 @@ eval "$(dircolors ~/.dir_colors)"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="candy"
 
+# Use vi key bindings
+bindkey -v
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -56,7 +59,7 @@ ZSH_THEME="candy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z sudo zsh-syntax-highlighting)
+plugins=(git z sudo zsh-syntax-highlighting vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
