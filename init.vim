@@ -133,6 +133,8 @@ let g:syntastic_enable_r_lintr_checker = 1
 let g:syntastic_r_checkers = ['lintr']
 let g:syntastic_r_lintr_linters = "with_defaults(camel_case_linter = NULL, object_length_linter = NULL)"
 
+let g:syntastic_python_checkers = ['pylint']
+
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
