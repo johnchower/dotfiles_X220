@@ -1,4 +1,6 @@
 /usr/local/bin/xflux -l 40 -g -105
 xmodmap ~/.Xmodmap
+setxkbmap -option caps:ctrl_modifier -device 16
 setxkbmap -option caps:ctrl_modifier
+/bin/bash /home/john/.screenlayout/home.sh
 sudo dhclient wlan0
