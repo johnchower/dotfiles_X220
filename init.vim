@@ -35,7 +35,7 @@ filetype plugin indent on    " required
 " Search options
 set incsearch 
 set ignorecase
-set invhlsearch
+set nohlsearch
 
 " Key mappings
 
