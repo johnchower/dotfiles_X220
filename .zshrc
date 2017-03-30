@@ -3,6 +3,7 @@ export PATH=$HOME/scripts:$HOME/miniconda3/bin:$HOME/.linuxbrew/bin:$PATH
 export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 export MANPAGER="nvim -c 'set ft=man' -"
+export EDITOR=/home/john/.linuxbrew/bin/nvim
 
 # Set directory colors
 eval "$(dircolors ~/.dir_colors)"
