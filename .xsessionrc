@@ -2,5 +2,6 @@
 xmodmap ~/.Xmodmap
 setxkbmap -option caps:ctrl_modifier -device 16
 setxkbmap -option caps:ctrl_modifier
+xinput set-button-map 12 3 2 1
 /bin/bash /home/john/.screenlayout/home.sh
 sudo dhclient wlan0
