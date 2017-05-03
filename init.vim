@@ -24,7 +24,7 @@ Plugin 'vimperator/vimperator.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chrisbra/csv.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'vim-latex/vim-latex'
+" Plugin 'vim-latex/vim-latex'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'scrooloose/syntastic'
 
