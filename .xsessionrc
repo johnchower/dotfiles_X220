@@ -2,5 +2,5 @@
 xmodmap ~/.Xmodmap
 /bin/bash /home/john/scripts/find_mouse_and_keyboard.sh
 setxkbmap -option caps:ctrl_modifier
-/bin/bash /home/john/.screenlayout/home.sh
+/bin/bash /home/john/scripts/monitor_setup.sh
 sudo dhclient wlan0
