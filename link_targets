@@ -18,5 +18,8 @@
           ./home/john/.screenlayout/home.sh -> /home/john/dotfiles_X220/home.sh
           ./home/john/.zshrc -> /home/john/dotfiles_X220/.zshrc
           ./home/john/.xprofile -> dotfiles_X220/.xprofile
+          ./home/john/scripts/monitor_setup.sh -> /home/john/dotfiles_X220/monitor_setup.sh
+          ./home/john/scripts/find_mouse_and_keyboard.sh -> /home/john/dotfiles_X220/find_mouse_and_keyboard.sh
+          ./home/john/scripts/link_finder.sh -> /home/john/dotfiles_X220/link_finder.sh
           ./home/john/.Rprofile -> dotfiles_X220/.Rprofile
           ./home/john/.dir_colors -> dotfiles_X220/.dir_colors
