@@ -168,3 +168,6 @@ exec firefox
         # Firefox
                 assign [class="Firefox"] 2
 		for_window [class="Firefox"] fullscreen
+
+# Start NetworkManager applet on startup
+exec --no-startup-id nm-applet
