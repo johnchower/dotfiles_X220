@@ -14,12 +14,15 @@
           ./home/john/.vimperatorrc -> dotfiles_X220/.vimperatorrc
           ./home/john/.xsessionrc -> /home/john/dotfiles_X220/.xsessionrc
           ./home/john/.vimrc -> dotfiles_X220/init.vim
+          ./home/john/.xbindkeysrc -> /home/john/dotfiles_X220/.xbindkeysrc
           ./home/john/.Xresources -> dotfiles_X220/.Xresources
           ./home/john/.screenlayout/home.sh -> /home/john/dotfiles_X220/home.sh
           ./home/john/.zshrc -> /home/john/dotfiles_X220/.zshrc
           ./home/john/.xprofile -> dotfiles_X220/.xprofile
           ./home/john/scripts/monitor_setup.sh -> /home/john/dotfiles_X220/monitor_setup.sh
+          ./home/john/scripts/home.sh -> /home/john/dotfiles_X220/home.sh
           ./home/john/scripts/find_mouse_and_keyboard.sh -> /home/john/dotfiles_X220/find_mouse_and_keyboard.sh
+          ./home/john/scripts/no_laptop.sh -> /home/john/dotfiles_X220/no_laptop.sh
           ./home/john/scripts/link_finder.sh -> /home/john/dotfiles_X220/link_finder.sh
           ./home/john/.Rprofile -> dotfiles_X220/.Rprofile
           ./home/john/.dir_colors -> dotfiles_X220/.dir_colors

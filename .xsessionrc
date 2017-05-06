@@ -4,3 +4,4 @@ xmodmap ~/.Xmodmap
 setxkbmap -option caps:ctrl_modifier
 /bin/bash /home/john/scripts/monitor_setup.sh
 sudo dhclient wlan0
+xbindkeys
