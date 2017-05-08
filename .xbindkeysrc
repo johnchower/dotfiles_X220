@@ -42,10 +42,16 @@
 # "xbindkeys_show" 
 #  control+shift + q
 
-"rofi -show combi"
+# Open rofi
+"exec zsh -c 'rofi -show combi'"
     m:0x8 + c:65
     Alt + space
 
+# Switch to previous window in i3
+"exec i3-msg workspace back_and_forth"
+    m:0x8 + c:23
+    Alt + Tab
+	
 # set directly keycode (here control + f with my keyboard)
 #"xterm"
 #  c:41 + m:0x4
