@@ -1,4 +1,4 @@
-xterm*selectToClipboard:true
+XTerm*selectToClipboard:true
 xterm*termName: xterm-256color
 xterm*font:     *-fixed-*-*-*-8-*
 xterm*faceName: Bitstream Vera Serif Mono
@@ -60,3 +60,6 @@ xterm*color14:               S_base1
 !! white dark/light
 xterm*color7:                S_base2
 xterm*color15:               S_base3
+
+!! rofi options
+rofi.modi:                           window,run,ssh,combi

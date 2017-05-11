@@ -43,7 +43,7 @@
 #  control+shift + q
 
 # Open rofi
-"exec zsh -c 'rofi -show combi'"
+"exec ~/scripts/rofi_combi.sh"
     m:0x8 + c:65
     Alt + space
 
