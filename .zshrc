@@ -67,6 +67,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Automatically start tmux session when sshing into aviation
+alias sshaviation="ssh aviation -t 'tmux attach -t base || tmux new -s base'"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
