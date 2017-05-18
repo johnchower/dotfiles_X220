@@ -171,6 +171,14 @@ exec firefox
         # Firefox
                 assign [class="Firefox"] 2
 		for_window [class="Firefox"] fullscreen
+	# Keepass
+	  	assign [class="KeePass2"] 3
+	# Chrome
+	  	assign [class="Google-chrome"] 3
+	# LibreOffice Writer
+	  	assign [class="libreoffice-writer"] 4
+	# LibreOffice Calc
+	  	assign [class="libreoffice-calc"] 4
 
 # Start NetworkManager applet on startup
 exec --no-startup-id nm-applet
