@@ -142,3 +142,6 @@ let g:syntastic_check_on_wq = 0
 
 " Switch cursor depending on mode
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+
+" ctrlp needs to find dotfiles
+let g:ctrlp_show_hidden = 1
