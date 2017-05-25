@@ -27,6 +27,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " Plugin 'vim-latex/vim-latex'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'scrooloose/syntastic'
+Plugin 'wesQ3/vim-windowswap'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
