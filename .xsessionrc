@@ -2,6 +2,7 @@
 xmodmap ~/.Xmodmap
 /bin/bash /home/john/scripts/find_mouse_and_keyboard.sh
 setxkbmap -option caps:ctrl_modifier
+xcape -e 'Caps_Lock=Escape'
 /bin/bash /home/john/scripts/monitor_setup.sh
 sudo dhclient wlan0
 xbindkeys
