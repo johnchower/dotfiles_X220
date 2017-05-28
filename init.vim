@@ -74,7 +74,6 @@ colo solarized
 " let R_tmux_split = 1
 " let R_term="screen-256color"
 " let R_notmuxconf=1
-let R_vsplit=1
 
 " R indentation rules
 let r_indent_op_pattern = '%[^%]*%$'
@@ -86,6 +85,9 @@ let R_assign = 2
 let R_show_args = 1
 " Change Nvim-R sourcing behavior
 let R_source_args = "print.eval = TRUE, echo = TRUE"
+
+" Use syntax highlighting in Nvim-R terminal
+let R_hl_term = 1
 
 " Setup vim-slime to work with tmux
 let g:slime_target = "tmux"
