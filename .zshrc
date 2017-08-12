@@ -1,9 +1,9 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/scripts:$HOME/miniconda3/bin:$HOME/.linuxbrew/bin:$PATH
+export PATH=$HOME/scripts:$HOME/miniconda3/bin:$PATH:$HOME/.linuxbrew/bin
 export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 export MANPAGER="nvim -c 'set ft=man' -"
-export EDITOR=/home/john/.linuxbrew/bin/nvim
+export EDITOR=/usr/bin/nvim
 
 # Set directory colors
 eval "$(dircolors ~/.dir_colors)"
@@ -18,6 +18,15 @@ ZSH_THEME="candy"
 
 # Use vi key bindings
 bindkey -v
+
+# 0 -- vanilla completion (abc => abc)
+# 1 -- smart case completion (abc => Abc)
+# 2 -- word flex completion (abc => A-big-Car)
+# 3 -- full flex completion (abc => ABraCadabra)
+zstyle ':completion:*' matcher-list '' \
+  'm:{a-z\-}={A-Z\_}' \
+  'r:[^[:alpha:]]||[[:alpha:]]=** r:|=* m:{a-z\-}={A-Z\_}' \
+  'r:|?=** m:{a-z\-}={A-Z\_}'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
