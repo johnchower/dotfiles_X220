@@ -78,11 +78,15 @@ colo solarized
 " R indentation rules
 let r_indent_op_pattern = '%[^%]*%$'
 
+let r_indent_align_args = 0
+let r_indent_ess_comments = 0
+let r_indent_ess_compatible = 0
+
 " Disable Nvim-R's autocompletion of "_" to "<-"
 let R_assign = 2
 
 " Show Nvim-R's omni completion as you type
-let R_show_args = 1
+let R_show_args = 0
 " Change Nvim-R sourcing behavior
 let R_source_args = "print.eval = TRUE, echo = TRUE"
 
@@ -98,10 +102,10 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
- 
+
 " TMUX window move stuff
 " let g:tmux_navigator_no_mappings = 1
- 
+
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
@@ -149,3 +153,6 @@ let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
 " ctrlp needs to find dotfiles
 let g:ctrlp_show_hidden = 1
+
+" Sudo write trick
+command W w !sudo tee % > /dev/null
