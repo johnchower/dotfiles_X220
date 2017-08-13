@@ -29,6 +29,7 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'scrooloose/syntastic'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'vim-scripts/Tabmerge'
+Plugin 'stephpy/vim-yaml'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

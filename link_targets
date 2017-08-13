@@ -6,10 +6,8 @@
           ./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
           ./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
           ./home/john/.config/nvim/bundle/Vundle.vim/ftplugin/r.vim -> /home/john/dotfiles_X220/R.vim
-          ./home/john/.config/nvim/bundle/Vundle.vim/ftplugin/yml.vim -> /home/john/dotfiles_X220/yml.vim
           ./home/john/.config/nvim/bundle/Vundle.vim/ftplugin/R.vim -> /home/john/dotfiles_X220/R.vim
           ./home/john/.pylintrc -> dotfiles_X220/.pylintrc
-          ./home/john/.vim/ftplugin/yml.vim -> /home/john/dotfiles_X220/yml.vim
           ./home/john/.vim/ftplugin/R.vim -> /home/john/dotfiles_X220/R.vim
           ./home/john/.Xmodmap -> /home/john/dotfiles_X220/.Xmodmap
           ./home/john/.bashrc -> /home/john/dotfiles_X220/.bashrc
