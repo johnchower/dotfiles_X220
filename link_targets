@@ -18,6 +18,7 @@
           ./home/john/.xbindkeysrc -> /home/john/dotfiles_X220/.xbindkeysrc
           ./home/john/.Xresources -> dotfiles_X220/.Xresources
           ./home/john/.screenlayout/home.sh -> /home/john/dotfiles_X220/home.sh
+          ./home/john/.tmuxinator -> /home/john/dotfiles_X220/.tmuxinator
           ./home/john/.zshrc -> /home/john/dotfiles_X220/.zshrc
           ./home/john/.xprofile -> dotfiles_X220/.xprofile
           ./home/john/scripts/monitor_setup.sh -> /home/john/dotfiles_X220/monitor_setup.sh

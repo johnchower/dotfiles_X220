@@ -161,7 +161,7 @@ bar {
 
 # Auto-start and application workplace assignments
 
-exec i3-sensible-terminal -e tmux
+exec i3-sensible-terminal
 exec firefox
 
 # application rules
@@ -179,6 +179,10 @@ exec firefox
 	  	assign [class="libreoffice-writer"] 4
 	# LibreOffice Calc
 	  	assign [class="libreoffice-calc"] 4
+	# Okular
+	  	assign [class="Okular"] 5
+	# VLC
+	  	assign [class="vlc"] 6
 
 # Start NetworkManager applet on startup
 exec --no-startup-id nm-applet
