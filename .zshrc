@@ -79,8 +79,6 @@ source $ZSH/oh-my-zsh.sh
 # Automatically start tmux session when sshing into aviation
 alias sshaviation="ssh aviation -t 'tmux attach -t base || tmux new -s base'"
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -105,3 +103,6 @@ alias sshaviation="ssh aviation -t 'tmux attach -t base || tmux new -s base'"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+ 
+# Load rbenv
+eval "$(rbenv init -)" 
