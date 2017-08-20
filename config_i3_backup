@@ -161,7 +161,7 @@ bar {
 
 # Auto-start and application workplace assignments
 
-exec i3-sensible-terminal
+exec i3-sensible-terminal -hold -e '/home/john/.rbenv/shims/tmuxinator start home'
 exec firefox
 
 # application rules
