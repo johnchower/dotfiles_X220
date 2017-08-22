@@ -5,6 +5,7 @@
           ./etc/lightdm/lightdm-gtk-greeter.conf -> /home/john/dotfiles_X220/lightdm-gtk-greeter.conf
           ./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
           ./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
+          ./home/john/.config/nvim/ginit.vim -> /home/john/dotfiles_X220/ginit.vim
           ./home/john/.config/nvim/bundle/Vundle.vim/ftplugin/r.vim -> /home/john/dotfiles_X220/R.vim
           ./home/john/.config/nvim/bundle/Vundle.vim/ftplugin/R.vim -> /home/john/dotfiles_X220/R.vim
           ./home/john/.pylintrc -> dotfiles_X220/.pylintrc
