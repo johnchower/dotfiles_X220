@@ -183,6 +183,8 @@ exec firefox
 	  	assign [class="Okular"] 5
 	# VLC
 	  	assign [class="vlc"] 6
+	# GnuCash
+	  	assign [class="Gnucash"] 7
 
 # Start NetworkManager applet on startup
 exec --no-startup-id nm-applet
