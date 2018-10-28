@@ -6,6 +6,11 @@
 # Uncomment this to still load settings configured via autoconfig.yml
 # config.load_autoconfig()
 
+# Aliases for commands. The keys of the given dictionary are the
+# aliases, while the values are the commands they map to.
+# Type: Dict
+c.aliases = {'q': 'close', 'qa': 'quit', 'w': 'session-save', 'wq': 'quit --save', 'wqa': 'quit --save'}
+
 # Backend to use to display websites. qutebrowser supports two different
 # web rendering engines / backends, QtWebKit and QtWebEngine. QtWebKit
 # was discontinued by the Qt project with Qt 5.6, but picked up as a
@@ -53,6 +58,10 @@ c.hints.auto_follow_timeout = 100
 #   - letter: Use the characters in the `hints.chars` setting.
 #   - word: Use hints words based on the html elements and the extra words.
 c.hints.mode = 'number'
+
+# Hide the statusbar unless a message is shown.
+# Type: Bool
+c.statusbar.hide = True
 
 # Open base URL of the searchengine if a searchengine shortcut is
 # invoked without parameters.
