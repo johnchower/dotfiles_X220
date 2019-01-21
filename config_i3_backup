@@ -161,30 +161,38 @@ bar {
 
 # Auto-start and application workplace assignments
 
-exec i3-sensible-terminal -hold -e '/home/john/.rbenv/shims/tmuxinator start home'
-exec firefox
+exec i3-sensible-terminal -hold -e '/usr/bin/tmux attach -t home'
 
 # application rules
-        # Terminal
-                assign [class="xterm"] 1
-		for_window [class="UXTerm"] fullscreen
         # Firefox
-                assign [class="Firefox"] 2
+                assign [class="Firefox"] 4
 		for_window [class="Firefox"] fullscreen
 	# Keepass
-	  	assign [class="KeePass2"] 3
+	  	assign [class="KeePass2"] 2
 	# Chrome
 	  	assign [class="Google-chrome"] 3
+	# Nestopia
+	  	assign [class="nestopia"] 1
 	# LibreOffice Writer
-	  	assign [class="libreoffice-writer"] 4
+	  	assign [class="libreoffice-writer"] 5
 	# LibreOffice Calc
-	  	assign [class="libreoffice-calc"] 4
+	  	assign [class="libreoffice-calc"] 5
 	# Okular
-	  	assign [class="Okular"] 5
+	  	assign [class="Okular"] 6
 	# VLC
-	  	assign [class="vlc"] 6
-	# GnuCash
-	  	assign [class="Gnucash"] 7
+	  	assign [class="BASESIM1"] 8
+	# VLC
+	  	assign [class="vlc"] 7
+        # Terminal
+                assign [class="UXTerm"] 9
+		for_window [class="xterm"] fullscreen enable
+        # neovim
+                assign [class="nvim-qt"] 10
+		for_window [class="nvim-qt"] fullscreen
+	# qutebrowser
+		assign [class="qutebrowser"] 1
+		for_window [class="qutebrowser"] fullscreen
+
 
 # Start NetworkManager applet on startup
 exec --no-startup-id nm-applet
