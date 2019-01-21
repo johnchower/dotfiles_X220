@@ -3,6 +3,7 @@
           ./etc/udev/rules.d/70-android.rules -> /home/john/dotfiles_X220/70-android.rules
           ./etc/hosts -> /home/john/dotfiles_X220/hosts
           ./etc/lightdm/lightdm-gtk-greeter.conf -> /home/john/dotfiles_X220/lightdm-gtk-greeter.conf
+          ./home/john/.config/qutebrowser/config.py -> /home/john/dotfiles_X220/config.py
           ./home/john/.config/i3/config -> /home/john/dotfiles_X220/config_i3_backup
           ./home/john/.config/nvim/init.vim -> /home/john/dotfiles_X220/init.vim
           ./home/john/.config/nvim/ginit.vim -> /home/john/dotfiles_X220/ginit.vim
