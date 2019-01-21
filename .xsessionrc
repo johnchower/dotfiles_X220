@@ -1,4 +1,6 @@
-/usr/local/bin/xflux -l 40 -g -105
+/usr/bin/redshift-gtk &
+/home/john/.rbenv/shims/tmuxinator start home 
+/home/john/.rbenv/shims/tmuxinator start openstuff
 xmodmap ~/.Xmodmap
 /bin/bash /home/john/scripts/find_mouse_and_keyboard.sh
 setxkbmap -option caps:ctrl_modifier
