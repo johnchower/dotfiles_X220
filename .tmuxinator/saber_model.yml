@@ -1,7 +1,7 @@
-# ~/.tmuxinator/home.yml
+# ~/.tmuxinator/saber_model.yml
 
-name: home
-root: ~/
+name: saber_model
+root: ~/projects/saber_model
 
 # Optional tmux socket
 # socket_name: foo
@@ -19,10 +19,10 @@ root: ~/
 # tmux_command: byobu
 
 # Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
-startup_window: home
+startup_window: nvim
 
 # Specitifes (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
-startup_pane: 1
+startup_pane: 2
 
 # Controls whether the tmux session should be attached to automatically. Defaults to true.
 attach: false
@@ -31,14 +31,21 @@ attach: false
 # post: tmux -CC attach -t home
 
 windows:
-  - nvim:
+  - zero:
       layout: even-horizontal
       panes:
-        - nvim
-  - one:
-      panes:
-        -
+        - 
   - home:
       layout: even-horizontal
       panes:
+        - cd
+        - cd
+  - nvim:
+      layout: even-horizontal
+      panes:
+        - nvim -S
+  - terminal:
+      layout: even-horizontal
+      panes:
+        -
         -

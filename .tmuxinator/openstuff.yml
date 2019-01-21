@@ -1,6 +1,6 @@
-# ~/.tmuxinator/home.yml
+# ~/.tmuxinator/openstuff.yml
 
-name: home
+name: openstuff
 root: ~/
 
 # Optional tmux socket
@@ -34,11 +34,23 @@ windows:
   - nvim:
       layout: even-horizontal
       panes:
-        - nvim
+        - 
   - one:
       panes:
         -
-  - home:
+  - keepass2:
       layout: even-horizontal
       panes:
-        -
+        - keepass2
+  - google-chrome:
+      layout: even-horizontal
+      panes:
+        - google-chrome
+  - volumeicon:
+      layout: even-horizontal
+      panes:
+        - volumeicon
+  - qutebrowser:
+      layout: even-horizontal
+      panes:
+        - # source activate qutebrowser ; /home/john/miniconda3/envs/qutebrowser/qutebrowser/.venv/bin/python3 -m qutebrowser
