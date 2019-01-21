@@ -8,6 +8,9 @@ export EDITOR=/usr/bin/nvim
 # Set directory colors
 eval "$(dircolors ~/.dir_colors)"
 
+# Leave commands out of history if they start with a space
+export HISTCONTROL=ignorespace
+
 # Path to your oh-my-zsh installation.
   export ZSH=$HOME/.oh-my-zsh
 
@@ -18,6 +21,15 @@ ZSH_THEME="candy"
 
 # Use vi key bindings
 bindkey -v
+
+# Key bindings for history search function
+bindkey '^[OA' history-substring-search-up
+bindkey '^[OB' history-substring-search-down
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+
+# zsh autosuggestion accept completion
+bindkey '^N' autosuggest-accept
 
 # 0 -- vanilla completion (abc => abc)
 # 1 -- smart case completion (abc => Abc)
@@ -70,14 +82,26 @@ zstyle ':completion:*' matcher-list '' \
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z sudo zsh-syntax-highlighting vi-mode tmuxinator)
+plugins=(
+  zsh-autosuggestions
+  git
+  z
+  sudo
+  vi-mode
+  tmuxinator
+  zsh-history-substring-search
+  zsh-syntax-highlighting
+  docker
+)
+
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # Automatically start tmux session when sshing into aviation
-alias sshaviation="ssh aviation -t 'tmux attach -t base || tmux new -s base'"
+alias sshaviation="ssh aviation -t 'tmux attach -t john || tmux new -s john'"
+alias sshjohnsAndroid="ssh johnsAndroid -t 'tmux attach -t john || tmux new -s john'"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
